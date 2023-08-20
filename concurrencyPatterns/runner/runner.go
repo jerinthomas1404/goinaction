@@ -65,6 +65,6 @@ func (r *Runner) gotInterrupt() bool {
 		signal.Stop(r.interrupt)
 		return true
 	default:
-		return true
+		return false
 	}
 }
